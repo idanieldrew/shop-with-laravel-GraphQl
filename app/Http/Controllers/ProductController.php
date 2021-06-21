@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Shoes;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
-class ShoesController extends Controller
+class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.

@@ -5,9 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Shoes extends Model
+class Product extends Model
 {
     use HasFactory;
+
+
+    protected $fillable = ['name', 'color', 'size', 'image', 'details', 'discription', 'featured', 'link'];
 
     public function category()
     {
